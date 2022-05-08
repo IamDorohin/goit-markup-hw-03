@@ -64,6 +64,7 @@ p {
 }
 
 .logo {
+    margin-right: 93px;
     color: var(--acent-color);
     text-decoration: none;
     font-family: 'Raleway', sans-serif;
@@ -88,7 +89,6 @@ p {
 
 .site-nav {
     display: flex;
-    margin-left: 93px;
     padding-left: 0;
 }
 
@@ -113,6 +113,7 @@ p {
 }
 
 .contacts-list .contacts {
+    display: block;
     padding-top: 32px;
     padding-bottom: 32px;
 }
@@ -193,12 +194,15 @@ p {
     padding-left: 0;
 }
 
+.adv-cards {
+    width: 270px;
+}
+
 .adv-cards + .adv-cards {
     margin-left: 30px;
 }
 
 .advantage-details {
-    width: 270px;
     margin-bottom: 10px;
     color: #212121;
     font-size: 14px;
@@ -246,7 +250,7 @@ p {
 .team-card {
     display: inline-block;
     text-align: center;
-    padding-bottom: 30px;
+    /* padding-bottom: 30px; */
     background-color: #FFFFFF;
 }
 
@@ -254,8 +258,13 @@ p {
     margin-left: 30px;
 }
 
+.team-description {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
 .team-members {
-    margin-top: 30px;
+    /* margin-top: 30px; */
     margin-bottom: 10px;
     color: #212121;
     font-weight: 500;
@@ -324,7 +333,7 @@ p {
     display: flex;
     justify-content: center;
     padding-left: 0;
-    margin-bottom: 94px;
+    margin-bottom: 56px;
 }
 
 .filters-btn + .filters-btn{
@@ -361,7 +370,14 @@ p {
     padding-left: 0;
 }
 
+.cards-description {
+    display: block;
+    min-width: 322px;
+    padding: 20px 24px;
+}
+
 .portfolio-title {
+    margin-bottom: 4px;
     font-weight: 700;
     font-size: 18px;
     line-height: 2;
@@ -386,22 +402,6 @@ p {
     background-color: #FFFFFF;
     border: 1px solid #eeeeee;
 }
-
-.portfolio-title,
-.project-type {
-    display: block;
-    min-width: 322px;
-    margin-left: 24px;
-}
-
-.project-type {
-    margin-bottom: 20px;
-}
-
-.portfolio-title {
-    margin-top: 20px;
-}
-
 
 .projects-cards:nth-child(3n) {
     margin-right: 0;
