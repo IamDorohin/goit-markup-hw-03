@@ -64,13 +64,16 @@ p {
 }
 
 .logo {
-    margin-right: 93px;
     color: var(--acent-color);
     text-decoration: none;
     font-family: 'Raleway', sans-serif;
     font-weight: 700;
     font-size: 26px;
     line-height: 1.19;
+}
+
+.logo-top {
+    margin-right: 93px;
 }
 
 .logo-color {
@@ -371,8 +374,6 @@ p {
 }
 
 .cards-description {
-    display: block;
-    min-width: 322px;
     padding: 20px 24px;
 }
 
